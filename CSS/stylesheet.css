@@ -7,8 +7,7 @@ body {
     justify-content: center;
     background-color: #f4f4f4;
     height: 100vh;
-
-
+    font-family: 'Arial', sans-serif;
 
 }
 
@@ -24,9 +23,7 @@ body {
 
 }
 
-input,
-select,
-button {
+input, select, button {
 
     margin-bottom: 15px;
     padding: 8px;
@@ -46,9 +43,11 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     border: none;
+    transition: 3ms ease-in-out;
 
 }
 
 button:hover {
     opacity: 0.6;
 }
+

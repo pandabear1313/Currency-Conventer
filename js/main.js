@@ -7,6 +7,11 @@ function convert() {
     var calculate;
     const yen1 = 54.32, Euro1 = 0.34, USD1 = 0.37, Pounds1 = 0.29, Canada1 = 0.50, Korean1 = 479.12;
 
+    if(isNaN(num)) {
+
+        alert("Enter a number");
+    }
+
     if (selected == "jap") {
 
         calculate = num * yen1;

@@ -34,7 +34,7 @@ function convert() {
     } else if (selected == "Canada") {
 
         calculate = num * Canada1;
-        document.querySelector("#results").innerHTML = "$" + calculate.toFixed(2);
+        document.querySelector("#results").innerHTML = "CA$" + calculate.toFixed(2);
 
     } else if (selected == "Korean") {
 

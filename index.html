@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+
+        <label>East Caribbean Dollar (XCD) $ </label>
+        <input type="number" id="num1"> <br><br>
+
+        <label>Convent to:</label>
+        <select id="currency">
+
+            <option value="" disabled selected style="text-align: center;">Select</option>
+            <option value="jap">Japanese Yen</option>
+            <option value="Euro">Euro</option>
+            <option value="USD">United States Dollor</option>
+            <option value="Pounds">Pound Sterling</option>
+            <option value="Korean">Korean Won</option>
+        </select>
+        <button type="button" onclick="convert()">Convent</button>
+    </form>
+    <hr>
+
+    <h2>Conversion Results</h2>
+
+    <div id="results">
+
+    </div>
+
+</body>
+
+<script src="./main.js"></script>
+
+</html>

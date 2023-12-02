@@ -7,7 +7,7 @@ body {
     justify-content: center;
     background-color: #f4f4f4;
     height: 100vh;
-    font-family: 'Arial', sans-serif;
+   font-family: 'Arial', sans-serif; 
 
 }
 
@@ -25,7 +25,7 @@ body {
 
 input, select, button {
 
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     padding: 8px;
     text-align: center;
     border-radius: 6px;

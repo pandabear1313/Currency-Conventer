@@ -10,8 +10,9 @@ function convert() {
     if(isNaN(num)) {
 
         alert("Enter a number");
-    }
 
+    }
+    
     if (selected == "jap") {
 
         calculate = num * yen1;

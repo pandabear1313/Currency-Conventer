@@ -28,12 +28,16 @@ input, select, button {
     margin-bottom: 15px;
     padding: 8px;
     text-align: center;
+    border-radius: 6px;
+    border: none;
+   
 }
 
 label {
 
     display: block;
     padding: 8px;
+
 }
 
 button {
@@ -44,6 +48,7 @@ button {
     cursor: pointer;
     border: none;
     transition: 3ms ease-in-out;
+    border-radius: 8px;
 
 }
 

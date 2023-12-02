@@ -47,5 +47,4 @@ function convert() {
         calculate = num * Korean1;
         document.querySelector("#results").innerHTML = "₩" + calculate.toFixed(2);
     }
-
 }

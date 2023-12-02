@@ -1,0 +1,47 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+  
+   
+
+}
+
+#container {
+
+    background-color: rgb(186, 179, 179);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 100px;
+
+}
+
+input, select, button {
+
+    margin-bottom: 15px;
+    padding: 8px;
+    text-align: center;
+}
+
+label {
+
+    display: block;
+    padding: 8px;
+}
+button {
+
+    color: #f4f4f4;
+    background-color: rgb(46, 45, 53);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+
+}
